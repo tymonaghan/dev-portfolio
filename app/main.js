@@ -3,8 +3,7 @@ import ReactDOM from "react-dom";
 import TestCard from "./TestCard";
 
 ReactDOM.render(
-  <div>
-    <p>It's working, hooray!</p>
+  <div className="bg-slate-100 p-10 h-screen">
     <TestCard />
   </div>,
   document.getElementById("app")
