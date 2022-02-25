@@ -4,9 +4,11 @@
   "description": "software development portfolio for Tyler Monaghan",
   "main": "/app/main.js",
   "scripts": {
-    "start:dev": "webpack --mode development && http-server",
+    "start:dev": "webpack --watch --mode development & http-server -c-1",
     "start": "webpack --mode production && http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./app/input.css -o ./public/output.css && webpack --mode production",
+    "computeCss": "tailwindcss -i ./app/input.css -o ./public/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
     "tailwindcss": "^3.0.23",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"
