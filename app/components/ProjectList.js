@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProjectList = () => {
-  return <div> this a project list</div>;
+  return <div>Coming Soon!</div>;
 };
 
 export default ProjectList;

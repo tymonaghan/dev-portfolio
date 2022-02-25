@@ -1,7 +1,8 @@
 import NavBar from "./NavBar";
-import TestCard from "./TestCard";
+import Home from "./Home";
 import ProjectList from "./ProjectList";
 import SingleProjectView from "./SingleProjectView";
 import Layout from "./Layout";
+import IDCard from "./IDCard";
 
-export { NavBar, TestCard, ProjectList, SingleProjectView, Layout };
+export { NavBar, Home, ProjectList, SingleProjectView, Layout, IDCard };
