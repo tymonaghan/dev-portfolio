@@ -12,9 +12,9 @@ const NavBar = () => {
         <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
           <Link to="/projects">Project List</Link>
         </div>
-        <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
+        {/* <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
           This is a navbar!
-        </div>
+        </div> */}
       </div>
     </div>
   );
