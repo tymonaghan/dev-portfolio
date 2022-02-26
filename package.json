@@ -4,7 +4,7 @@
   "description": "software development portfolio for Tyler Monaghan",
   "main": "/app/main.js",
   "scripts": {
-    "start:dev": "webpack --watch --mode development & http-server -c-1",
+    "start:dev": "webpack --watch --mode development & http-server -c-1 --proxy http://localhost:8080?",
     "start": "webpack --mode production && http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tailwindcss -i ./app/input.css -o ./public/output.css && webpack --mode production",
