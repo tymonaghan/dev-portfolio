@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div>
       <div className="bg-amber-400 text-sm text-center">Under Construction</div>
-      <div className="flex h-16 bg-slate-700">
+      <div className="flex h-16 bg-slate-700 dark:bg-slate-400 dark:border-2 dark:border-slate-200">
         <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
           <Link to="/">Portfolio Home</Link>
         </div>
