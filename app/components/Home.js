@@ -14,7 +14,10 @@ const Home = () => {
           <br />
           <p className="text-md sm:text-lg text-left font-bold">
             Please check out my{" "}
-            <Link to="/projects" className="text-blue-700 underline">
+            <Link
+              to="/projects"
+              className="text-blue-700 underline dark:text-blue-300"
+            >
               software projects
             </Link>{" "}
             page for descriptions and links of my software!
