@@ -618,6 +618,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 3rem;
 }
 
+.max-h-40 {
+  max-height: 10rem;
+}
+
 .w-80 {
   width: 20rem;
 }

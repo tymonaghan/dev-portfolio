@@ -11,6 +11,7 @@ const Home = () => {
             Hi, I'm Tyler, a software engineer and digital humanitarian. Welcome
             to my digital development portfolio!{" "}
           </p>
+          <br />
           <p className="text-md sm:text-lg text-left font-bold">
             Please check out my{" "}
             <Link to="/projects" className="text-blue-700 underline">
@@ -23,7 +24,8 @@ const Home = () => {
           <img className="max-w-xs mx-auto" src="/biopic-400w.jpg" />
         </div>
       </div>
-      <br></br>Also check out my GitHub and LinkedIn profiles!
+      <br />
+      Also check out my GitHub and LinkedIn profiles!
       <IDCard title={"GitHub"} url={"github.com/tymonaghan"} />
       <IDCard title={"LinkedIn"} url={"linkedin.com/in/tyler-monaghan-dev"} />
     </div>
