@@ -21,7 +21,10 @@ const Home = () => {
           </p>
         </div>
         <div className="mx-auto">
-          <img className="max-w-xs mx-auto" src="/biopic-400w.jpg" />
+          <img
+            className="max-w-xs mx-auto w-full object-cover"
+            src="/biopic-400w.jpg"
+          />
         </div>
       </div>
       <br />
