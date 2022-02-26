@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full p-6 text-center">
-      <div className="flex-col">
+    <div className="w-full p-6 text-center text-black dark:text-white">
+      <div className="flex-col ">
         <div>
-          <p className="text-md sm:text-lg text-left">
+          <p className="text-md sm:text-lg text-left ">
             Hi, I'm Tyler, a software engineer and digital humanitarian. Welcome
             to my digital development portfolio!{" "}
           </p>
