@@ -22,35 +22,40 @@ const ProjectList = () => {
                   className="max-w-20 max-h-28 mx-auto"
                 />
               </div>
-              <div className="">
-                <div className="">{project.description}</div>
-                <div className="">
-                  <div className="my-auto text-center">
-                    <a href={project.repo} target="_blank">
-                      <button
-                        type="button"
-                        className="bg-slate-400 text-white font-medium rounded shadow-xl p-1 mx-3 my-2 my-auto"
-                      >
-                        <div className="flex">
-                          <img
-                            src="./GitHub.png"
-                            alt=""
-                            className="w-4 h-4 aspect-square my-auto  mr-1 "
-                          />
-                          Project Repo
-                        </div>
-                      </button>
-                    </a>
+              <div className="flex-col w-3/4">
+                <div className="my-2">{project.description}</div>
+                <div className="my-6 flex-row text-center">
+                  <a href={project.repo} target="_blank">
+                    <button
+                      type="button"
+                      className="bg-slate-400 text-white font-medium rounded shadow-xl p-1 mx-3 my-1"
+                    >
+                      <div className="flex">
+                        <img
+                          src="./GitHub.png"
+                          alt=""
+                          className="w-4 h-4 aspect-square my-auto  mr-1 "
+                        />
+                        Project Repo
+                      </div>
+                    </button>
+                  </a>
 
-                    <a href={project.site} target="_blank">
-                      <button
-                        type="button"
-                        className="bg-slate-400 text-white font-medium rounded shadow-xl mx-3 p-1 my-auto"
-                      >
+                  <a href={project.site} target="_blank">
+                    <button
+                      type="button"
+                      className="bg-slate-400 text-white font-medium rounded shadow-xl p-1 mx-3 my-1"
+                    >
+                      <div className="flex">
+                        <img
+                          src={project.iconUrl}
+                          alt=""
+                          className="w-4 h-4 aspect-square my-auto  mr-1 "
+                        />
                         Deployed App
-                      </button>
-                    </a>
-                  </div>
+                      </div>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

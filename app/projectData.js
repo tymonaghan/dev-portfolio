@@ -9,6 +9,7 @@ const projectData = {
       alt: "a screenshot of a cell phone showing Usain Bolt celebrating and a person matching his pose. The screen shows 'match' in large green letters.",
       description:
         "Mobile app that detects a users pose and checks if you've matched the pose given",
+      iconUrl: "/posele-icon.png",
     },
     {
       name: "House of Plants",
@@ -17,6 +18,7 @@ const projectData = {
       type: "Group",
       imageUrl: "/HoP-img.png",
       description: "An interactive eCommerce site design",
+      iconUrl: "/hop-icon.png",
     },
     {
       name: "Ice Resurfacer",
@@ -26,6 +28,7 @@ const projectData = {
       imageUrl: "./ice-resurfacer-img.png",
       description:
         "A top-down action driving game set in the high-stakes world of ice resurfacing.",
+      iconUrl: "/ice-icon.png",
     },
     {
       name: "StudyBuddy",
@@ -35,6 +38,7 @@ const projectData = {
       imageUrl: "./study-buddy-img.png",
       description:
         "A web app for academic researchers to organize their projects, sources, and notes.",
+      iconUrl: "/studybuddy-icon.png",
     },
   ],
 };
