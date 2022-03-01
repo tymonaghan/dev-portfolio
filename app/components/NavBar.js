@@ -5,7 +5,7 @@ const NavBar = () => {
   let activeStyle = {
     // this style applies to the currently selected NavLink item
     textDecoration: "underline",
-    "text-shadow": "1px 1px 3px #fbbe2499",
+    textShadow: "1px 1px 3px #fbbe2499",
     color: "accent",
   };
   return (
