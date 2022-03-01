@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full px-4 py-2 sm:p-6 text-center text-text-primary-light dark:text-text-primary-dark">
-      <div className="flex-col ">
+    <div className="w-full px-4 py-2 sm:py-4 text-center text-text-primary-light dark:text-text-primary-dark">
+      <div className="flex-col">
         <p className="text-sm sm:text-base text-left ">
           Hi, I'm Tyler, a software engineer and digital humanitarian. Welcome
           to my digital development portfolio!{" "}
         </p>
-        <br />
-        <p className="text-sm sm:text-base text-left font-bold">
+        <p className="text-sm sm:text-base text-left font-bold my-3">
           Please check out my{" "}
           <Link
             to="/projects"
@@ -28,8 +27,8 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="mt-3">
-        Also check out my GitHub and LinkedIn profiles!
+      <div className="text-sm sm:text-base text-left my-3">
+        <p>Also check out my GitHub and LinkedIn profiles!</p>
         <IDCard title={"GitHub"} url={"github.com/tymonaghan"} />
         <IDCard title={"LinkedIn"} url={"linkedin.com/in/tyler-monaghan-dev"} />
       </div>

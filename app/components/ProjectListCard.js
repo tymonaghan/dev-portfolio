@@ -14,7 +14,9 @@ const ProjectListCard = (props) => {
         />
       </div>
       <div className="flex-col w-3/4">
-        <div className="my-2 text-sm sm:text-base">{project.description}</div>
+        <div className="my-2 text-sm sm:text-base">
+          {project.description} {project.type} project.
+        </div>
         <div className="sm:my-6 flex-row text-center">
           <a href={project.repo} target="_blank">
             <button
