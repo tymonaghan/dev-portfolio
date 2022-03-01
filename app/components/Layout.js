@@ -4,8 +4,8 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="bg-orange-100 dark:bg-slate-400 h-max min-h-screen m-0">
-      <div className="bg-slate-100 dark:bg-slate-700 h-max min-h-screen w-full sm:w-3/4 sm:mx-auto shadow-xl">
+    <div className="bg-gutter-light dark:bg-gutter-dark h-max min-h-screen m-0">
+      <div className="bg-background-light dark:bg-background-dark h-max min-h-screen w-full sm:w-3/4 sm:mx-auto shadow-xl">
         <NavBar />
         <Outlet />
       </div>

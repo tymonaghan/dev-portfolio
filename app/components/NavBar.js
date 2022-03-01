@@ -1,20 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  let activeStyle = {
+    textDecoration: "underline",
+    shadow: "accent",
+  };
   return (
     <div>
-      <div className="bg-amber-400 text-sm text-center">Under Construction</div>
-      <div className="flex h-16 bg-slate-700 dark:bg-slate-400 dark:border-2 dark:border-slate-200">
-        <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
-          <Link to="/">Portfolio Home</Link>
+      <div className="bg-accent text-sm text-center">Under Construction</div>
+      <div className="flex h-16 bg-background-dark dark:bg-gutter-dark dark:border-x-2 text-text-secondary-dark dark:text-text-primary-light dark:border-x-accent font-bold">
+        <div className="my-auto mx-10 flex-initial w-32 ">
+          <NavLink
+            to="/"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Portfolio Home
+          </NavLink>
         </div>
-        <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
-          <Link to="/projects">Project List</Link>
+        <div className="my-auto mx-10 flex-initial w-32">
+          <NavLink
+            to="/projects"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Project List
+          </NavLink>
         </div>
-        {/* <div className="text-l text-slate-50 my-auto mx-10 flex-initial w-32">
-          This is a navbar!
-        </div> */}
       </div>
     </div>
   );
