@@ -4,9 +4,9 @@ const ProjectListCard = (props) => {
   const { project } = props;
 
   return (
-    <div className="flex max-w-xl my-6 p-4 mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark">
-      <div className="w-1/4 mr-5">
-        <div className="font-bold text-center">{project.name}</div>
+    <div className="flex max-w-xl my-2 sm:my-6 p-4  mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark">
+      <div className="w-1/4 mr-5 my-auto">
+        <div className="font-bold text-center text-base">{project.name}</div>
         <img
           src={project.imageUrl}
           alt={project.alt}
@@ -14,12 +14,12 @@ const ProjectListCard = (props) => {
         />
       </div>
       <div className="flex-col w-3/4">
-        <div className="my-2">{project.description}</div>
-        <div className="my-6 flex-row text-center">
+        <div className="my-2 text-sm sm:text-base">{project.description}</div>
+        <div className="sm:my-6 flex-row text-center">
           <a href={project.repo} target="_blank">
             <button
               type="button"
-              className="bg-card-button text-text-primary-dark font-medium rounded shadow-xl p-1 mx-3 my-1"
+              className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded-sm shadow-xl p-1 px-2 mx-3 my-1 "
             >
               <div className="flex">
                 <img
@@ -35,7 +35,7 @@ const ProjectListCard = (props) => {
           <a href={project.site} target="_blank">
             <button
               type="button"
-              className="bg-card-button text-text-primary-dark font-medium rounded shadow-xl p-1 mx-3 my-1"
+              className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded shadow-xl p-1 px-2 mx-3 my-1 "
             >
               <div className="flex">
                 <img
