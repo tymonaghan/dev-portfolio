@@ -3,16 +3,16 @@ import projectData from "../projectData";
 
 const ProjectList = () => {
   return (
-    <div className="text-black dark:text-white">
-      <h1 className="text-white font-bold text-xl text-center mt-5 mb-0">
-        Project List
+    <div className="text-text-primary-light dark:text-text-primary-dark h-max min-h-screen">
+      <h1 className="font-bold text-xl text-center mt-5 mb-0">
+        My Software Projects
       </h1>
       <div className="">
         {projectData.projects.map((project, key) => {
           return (
             <div
               key={key}
-              className="flex max-w-xl m-6 p-4 mx-2 sm:mx-auto bg-slate-600 hover:bg-sky-700 border-slate-300 border-2  shadow rounded-md  text-white"
+              className="flex max-w-xl m-6 p-4 mx-2 sm:mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark"
             >
               <div className="w-1/4 mr-5">
                 <div className="font-bold text-center">{project.name}</div>
@@ -28,7 +28,7 @@ const ProjectList = () => {
                   <a href={project.repo} target="_blank">
                     <button
                       type="button"
-                      className="bg-slate-400 text-white font-medium rounded shadow-xl p-1 mx-3 my-1"
+                      className="bg-card-button text-text-primary-dark font-medium rounded shadow-xl p-1 mx-3 my-1"
                     >
                       <div className="flex">
                         <img
@@ -44,7 +44,7 @@ const ProjectList = () => {
                   <a href={project.site} target="_blank">
                     <button
                       type="button"
-                      className="bg-slate-400 text-white font-medium rounded shadow-xl p-1 mx-3 my-1"
+                      className="bg-card-button text-text-primary-dark font-medium rounded shadow-xl p-1 mx-3 my-1"
                     >
                       <div className="flex">
                         <img

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full p-6 text-center text-black dark:text-white">
+    <div className="w-full p-6 text-center text-text-primary-light dark:text-text-primary-dark">
       <div className="flex-col ">
         <div>
           <p className="text-md sm:text-lg text-left ">
@@ -16,9 +16,9 @@ const Home = () => {
             Please check out my{" "}
             <Link
               to="/projects"
-              className="text-blue-700 underline dark:text-blue-300"
+              className="text-link-light underline dark:text-link-dark"
             >
-              software projects
+              Projects
             </Link>{" "}
             page for descriptions and links of my software!
           </p>
