@@ -18,7 +18,7 @@ const Home = () => {
               to="/projects"
               className="text-link-light underline dark:text-link-dark"
             >
-              software projects
+              Projects
             </Link>{" "}
             page for descriptions and links of my software!
           </p>

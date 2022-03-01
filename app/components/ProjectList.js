@@ -4,7 +4,9 @@ import projectData from "../projectData";
 const ProjectList = () => {
   return (
     <div className="text-text-primary-light dark:text-text-primary-dark h-max min-h-screen">
-      <h1 className="font-bold text-xl text-center mt-5 mb-0">Project List</h1>
+      <h1 className="font-bold text-xl text-center mt-5 mb-0">
+        My Software Projects
+      </h1>
       <div className="">
         {projectData.projects.map((project, key) => {
           return (

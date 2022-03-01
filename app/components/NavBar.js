@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <div>
       <div className="bg-accent text-sm text-center">Under Construction</div>
-      <div className="flex h-16 bg-background-dark dark:bg-gutter-dark dark:border-x-2 text-text-secondary-dark dark:text-text-primary-light dark:border-x-accent font-bold">
+      <div className="flex h-16 bg-background-dark dark:bg-gutter-dark  text-text-secondary-dark dark:text-text-primary-light  font-bold">
         <div className="my-auto mx-10 flex-initial w-32 ">
           <NavLink
             to="/"
@@ -23,7 +23,7 @@ const NavBar = () => {
             to="/projects"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Project List
+            Projects
           </NavLink>
         </div>
       </div>
