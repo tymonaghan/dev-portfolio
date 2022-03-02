@@ -3,16 +3,12 @@ import React from "react";
 const ProjectListCard = (props) => {
   const { project } = props;
 
-  function handleClick() {
-    const modal = document.getElementById("modal");
-    modal.style.display = "block";
-    console.log(`click handled`);
-  }
   return (
     <div
       className="flex max-w-xl my-2 sm:my-6 p-4  mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark"
       onClick={() => {
-        handleClick();
+        console.log(project);
+        document.getElementById("modal").style.display = "block";
       }}
     >
       <div className="w-1/4 mr-5 my-auto">

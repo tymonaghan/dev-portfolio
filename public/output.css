@@ -512,8 +512,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 2.5rem;
 }
 
+.right-auto {
+  right: auto;
+}
+
+.bottom-auto {
+  bottom: auto;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .m-4 {
@@ -556,6 +568,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mt-2 {
@@ -628,6 +645,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 50%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .max-h-20 {
   max-height: 5rem;
 }
@@ -670,6 +691,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4 {
   width: 1rem;
+}
+
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-xs {
@@ -728,6 +759,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-border-dark {
   --tw-border-opacity: 1;
   border-color: rgb(237 245 255 / var(--tw-border-opacity));
@@ -770,6 +805,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
+}
+
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
 }
 
 .object-cover {
