@@ -5,6 +5,7 @@ import Layout from "./Layout";
 import IDCard from "./IDCard";
 import ProjectDetailCard from "./ProjectDetailCard";
 import ProjectListCard from "./ProjectListCard";
+import TechIcons from "./TechIcons";
 
 export {
   NavBar,
@@ -14,4 +15,5 @@ export {
   IDCard,
   ProjectDetailCard,
   ProjectListCard,
+  TechIcons,
 };

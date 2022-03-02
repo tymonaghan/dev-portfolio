@@ -10,8 +10,10 @@ const projectData = {
       alt: "a screenshot of a cell phone showing Usain Bolt celebrating and a person matching his pose. The screen shows 'match' in large green letters.",
       description:
         "Mobile game where users attempt to match a random daily pose.",
+      longDescription:
+        "POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. \n\n\n\nIn this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.4 weeks.",
       iconUrl: "/posele-icon.png",
-      technologies: ["react-native", "firebase"],
+      technologies: ["react", "firebase", "tensorflow"],
     },
     {
       name: "House of Plants",
@@ -23,8 +25,9 @@ const projectData = {
       alt: "a screenshot of a website with a green menu bar at the top and images of various houseplants arranged in a grid layout.",
       description:
         "An interactive eCommerce site design with cart and admin features.",
+      longDescription: "",
       iconUrl: "/hop-icon.png",
-      technologies: ["reactjs", "firebase"],
+      technologies: ["react", "firebase", "bootstrap", "postgres"],
     },
     {
       name: "Ice Resurfacer",
@@ -37,8 +40,9 @@ const projectData = {
 
       description:
         "A top-down action driving game set in the high-stakes world of ice resurfacing.",
+      longDescription: "",
       iconUrl: "/ice-icon.png",
-      technologies: ["reactjs", "firebase"],
+      technologies: ["react"],
     },
     {
       name: "StudyBuddy",
@@ -51,8 +55,9 @@ const projectData = {
 
       description:
         "A web app for academic researchers to organize their projects, sources, and notes.",
+      longDescription: "",
       iconUrl: "/studybuddy-icon.png",
-      technologies: ["reactjs", "firebase"],
+      technologies: ["react", "express", "bootstrap", "postgres"],
     },
     {
       name: "SOTU-db",
@@ -65,6 +70,7 @@ const projectData = {
 
       description:
         "A tool to search and perform sentiment analysis on the texts of US Presidents' State of the Union addresses.",
+      longDescription: "",
       iconUrl: "/sotu-db-icon.png",
       technologies: ["apache", "php", "r"],
     },
