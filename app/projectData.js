@@ -29,7 +29,7 @@ const projectData = {
       repo: "https://github.com/tymonaghan/ice-resurfacer",
       site: "https://ice-resurfacer.herokuapp.com",
       type: "Individual",
-      imageUrl: "./ice-resurfacer-img.png",
+      imageUrl: "/ice-resurfacer-img.png",
       alt: "a screenshot of a top-down view of an ice hockey rink with an animated ice-resurfacer machine on the left hand side.",
 
       description:
@@ -42,7 +42,7 @@ const projectData = {
       repo: "https://github.com/tymonaghan/studybuddy",
       site: "https://study-hero.herokuapp.com",
       type: "Individual",
-      imageUrl: "./study-buddy-img.png",
+      imageUrl: "/study-buddy-img.png",
       alt: "a screenshot of a an app showing various cards with notes and buttons on each card arranged in a rough grid layout.",
 
       description:
@@ -55,7 +55,7 @@ const projectData = {
       repo: "https://github.com/tymonaghan/sotu-db",
       site: "http://www.sotu-db.com/",
       type: "Individual",
-      imageUrl: "./sotu-db-img.png",
+      imageUrl: "/sotu-db-img.png",
       alt: "a screenshot of a an app showing a line chart at the top and a table of entries at the bottom.",
 
       description:

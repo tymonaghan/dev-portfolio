@@ -31,7 +31,7 @@ const ProjectListCard = (props) => {
             >
               <div className="flex">
                 <img
-                  src="./GitHub.png"
+                  src="/GitHub.png"
                   alt=""
                   className="w-4 h-4 aspect-square my-auto  mr-1 "
                 />
