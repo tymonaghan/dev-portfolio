@@ -2,6 +2,7 @@ const projectData = {
   projects: [
     {
       name: "POSEle",
+      slug: "posele",
       repo: "https://github.com/team-posele/posele-app",
       site: "https://www.posele.com",
       type: "Group",
@@ -14,6 +15,7 @@ const projectData = {
     },
     {
       name: "House of Plants",
+      slug: "house-of-plants",
       repo: "https://github.com/Warp-Speeders-Grace-Shopper/WarpSpeeders_GraceShoppers",
       site: "https://house-of-plants-grace-shopper.herokuapp.com/",
       type: "Group",
@@ -26,6 +28,7 @@ const projectData = {
     },
     {
       name: "Ice Resurfacer",
+      slug: "ice-resurfacer",
       repo: "https://github.com/tymonaghan/ice-resurfacer",
       site: "https://ice-resurfacer.herokuapp.com",
       type: "Individual",
@@ -39,6 +42,7 @@ const projectData = {
     },
     {
       name: "StudyBuddy",
+      slug: "studybuddy",
       repo: "https://github.com/tymonaghan/studybuddy",
       site: "https://study-hero.herokuapp.com",
       type: "Individual",
@@ -52,6 +56,7 @@ const projectData = {
     },
     {
       name: "SOTU-db",
+      slug: "sotu-db",
       repo: "https://github.com/tymonaghan/sotu-db",
       site: "http://www.sotu-db.com/",
       type: "Individual",

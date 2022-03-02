@@ -2,6 +2,7 @@ import React from "react";
 import projectData from "../projectData";
 import ProjectListCard from "./ProjectListCard";
 import ProjectDetailCard from "./ProjectDetailCard";
+import { Outlet } from "react-router-dom";
 
 const ProjectList = () => {
   return (
@@ -19,6 +20,7 @@ const ProjectList = () => {
         return <ProjectListCard project={project} key={key} />;
         // interesting how it wants the key on the ProjectListCard and not the divs rendered within it
       })}
+      <Outlet />
     </div>
   );
 };
