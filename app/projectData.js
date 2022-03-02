@@ -10,6 +10,7 @@ const projectData = {
       description:
         "Mobile game where users attempt to match a random daily pose.",
       iconUrl: "/posele-icon.png",
+      technologies: ["react-native", "firebase"],
     },
     {
       name: "House of Plants",
@@ -21,6 +22,7 @@ const projectData = {
       description:
         "An interactive eCommerce site design with cart and admin features.",
       iconUrl: "/hop-icon.png",
+      technologies: ["reactjs", "firebase"],
     },
     {
       name: "Ice Resurfacer",
@@ -33,6 +35,7 @@ const projectData = {
       description:
         "A top-down action driving game set in the high-stakes world of ice resurfacing.",
       iconUrl: "/ice-icon.png",
+      technologies: ["reactjs", "firebase"],
     },
     {
       name: "StudyBuddy",
@@ -45,6 +48,20 @@ const projectData = {
       description:
         "A web app for academic researchers to organize their projects, sources, and notes.",
       iconUrl: "/studybuddy-icon.png",
+      technologies: ["reactjs", "firebase"],
+    },
+    {
+      name: "SOTU-db",
+      repo: "https://github.com/tymonaghan/sotu-db",
+      site: "http://www.sotu-db.com/",
+      type: "Individual",
+      imageUrl: "./sotu-db-img.png",
+      alt: "a screenshot of a an app showing a line chart at the top and a table of entries at the bottom.",
+
+      description:
+        "A tool to search and perform sentiment analysis on the texts of US Presidents' State of the Union addresses.",
+      iconUrl: "/sotu-db-icon.png",
+      technologies: ["apache", "php", "r"],
     },
   ],
 };
