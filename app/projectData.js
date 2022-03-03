@@ -11,7 +11,7 @@ const projectData = {
       description:
         "Mobile game where users attempt to match a random daily pose.",
       longDescription:
-        "POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. In this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.4 weeks.",
+        "POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. In this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.5 weeks.",
       iconUrl: "/posele-icon.png",
       technologies: ["react", "firebase", "tensorflow"],
     },
@@ -77,6 +77,21 @@ const projectData = {
         "SOTU-db (State of the Union Database) is a web-based tool to search and conduct sentiment analysis computations on the texts of US Presidents' annual State of the Union addresses. I built this project from scratch on a Linux system running an Apache server, using PHP to connect to the R server that conducts the textual computations on the backend. I had no formal training in any of these technologies at the time, and it shows! I would love to re-build this project again on a modern JS-based stack! ",
       iconUrl: "/sotu-db-icon.png",
       technologies: ["apache", "php", "r"],
+    },
+    {
+      name: "Development Portfolio",
+      slug: "dev-portfolio",
+      repo: "https://github.com/tymonaghan/dev-portfolio",
+      site: "http://portfolio.tylermonaghan.dev/",
+      type: "Individual",
+      imageUrl: "/biopic-400w.jpg",
+      alt: "a headshot of a man smiling at the camera.",
+
+      description: "The portfolio site you're viewing right now.",
+      longDescription:
+        "I built this portfolio site as a quick and simple way to show off my software development portfolio to others, especially prospective employers. It is built using React and Tailwind CSS, which I used here for the first time.",
+      iconUrl: "/favicon.ico",
+      technologies: ["javascript", "react", "tailwind"],
     },
   ],
 };
