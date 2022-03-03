@@ -10,11 +10,9 @@ const ProjectList = () => {
       <h1 className="font-bold text-xl text-center mt-2 mb-0">
         My Software Projects
       </h1>
-      <div className="w-3/4 text-center mx-auto text-sm">
-        <p className="text-text-secondary-dark">
-          Click a screenshot to expand project details.
-        </p>
-        <p className="text-text-secondary-dark">
+      <div className="w-3/4 text-center mx-auto text-sm text-text-secondary-light dark:text-text-secondary-dark">
+        <p className="">Click a screenshot to expand project details.</p>
+        <p className="">
           Please allow up to sixty seconds for deployed apps to load.
         </p>
       </div>
