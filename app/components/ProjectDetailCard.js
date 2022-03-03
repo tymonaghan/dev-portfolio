@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "../projectData";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { TechIcons, ButtonGroup } from ".";
 
 const ProjectDetailCard = () => {
@@ -11,10 +11,18 @@ const ProjectDetailCard = () => {
     (project) => project.slug === projectSlug
   );
 
+  const navigate = useNavigate();
+  function clickHandler(e) {
+    if (e.target.id === "modal") {
+      navigate(`/projects`);
+    }
+  }
+
   return (
     <div
       id="modal"
       className=" fixed left-0 top-0 h-screen w-screen z-10 bg-gutter-light dark:bg-background-dark bg-opacity-70 dark:bg-opacity-70"
+      onClick={clickHandler}
     >
       <div className="z-20 mx-auto my-4 w-3/4 h-3/4 text-center overflow-auto bg-card-background p-0 border-4 border-border-dark shadow rounded">
         <div className="flex ">
