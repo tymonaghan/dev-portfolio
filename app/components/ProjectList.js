@@ -1,6 +1,8 @@
 import React from "react";
 import projectData from "../projectData";
 import ProjectListCard from "./ProjectListCard";
+import ProjectDetailCard from "./ProjectDetailCard";
+import { Outlet } from "react-router-dom";
 
 const ProjectList = () => {
   return (
@@ -9,16 +11,18 @@ const ProjectList = () => {
         My Software Projects
       </h1>
       <div className="w-3/4 text-center mx-auto text-sm">
-        <p>Please allow up to sixty seconds for deployed apps to load.</p>
-        {/* <p className="text-text-secondary-dark">
-          Coming soon: Click a card to expand details.
-        </p> */}
+        <p className="text-text-secondary-dark">
+          Click a screenshot to expand project details.
+        </p>
+        <p className="text-text-secondary-dark">
+          Please allow up to sixty seconds for deployed apps to load.
+        </p>
       </div>
       {projectData.projects.map((project, key) => {
         return <ProjectListCard project={project} key={key} />;
         // interesting how it wants the key on the ProjectListCard and not the divs rendered within it
       })}
-      {/* </div> */}
+      <Outlet />
     </div>
   );
 };

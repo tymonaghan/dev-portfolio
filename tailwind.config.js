@@ -17,6 +17,7 @@ module.exports = {
       "link-light": "#1d4fd8",
       "link-dark": "#93c4fd",
       "card-button": "#7e8c9c",
+      warning: "#ff000066",
     },
     extend: {},
   },

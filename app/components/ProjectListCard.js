@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectListCard = (props) => {
   const { project } = props;
@@ -6,12 +7,14 @@ const ProjectListCard = (props) => {
   return (
     <div className="flex max-w-xl my-2 sm:my-6 p-4  mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark">
       <div className="w-1/4 mr-5 my-auto">
-        <div className="font-bold text-center text-base">{project.name}</div>
-        <img
-          src={project.imageUrl}
-          alt={project.alt}
-          className="max-w-20 max-h-28 mx-auto"
-        />
+        <Link to={`./${project.slug}`}>
+          <div className="font-bold text-center text-base">{project.name}</div>
+          <img
+            src={project.imageUrl}
+            alt={project.alt}
+            className="max-w-20 max-h-28 mx-auto"
+          />
+        </Link>
       </div>
       <div className="flex-col w-3/4">
         <div className="my-2 text-sm sm:text-base">
@@ -25,7 +28,7 @@ const ProjectListCard = (props) => {
             >
               <div className="flex">
                 <img
-                  src="./GitHub.png"
+                  src="/GitHub.png"
                   alt=""
                   className="w-4 h-4 aspect-square my-auto  mr-1 "
                 />

@@ -10,10 +10,12 @@ const IDCard = (props) => {
           <img className="aspect-square max-h-12" src={`/${title}.png`} />
         </div>
         <div className="m-auto w-5/6 text-left">
-          <p className="text-white text-base md:text-lg space-y-2 font-bold">
+          <p className="text-text-primary-dark text-base md:text-lg space-y-2 font-bold">
             {title}
           </p>
-          <p className="text-white text-sm md:text-lg space-y-2">{url}</p>
+          <p className="text-text-primary-dark text-sm md:text-lg space-y-2">
+            {url}
+          </p>
         </div>
       </div>
     </a>
