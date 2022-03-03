@@ -78,6 +78,21 @@ const projectData = {
       iconUrl: "/sotu-db-icon.png",
       technologies: ["apache", "php", "r"],
     },
+    {
+      name: "Development Portfolio",
+      slug: "dev-portfolio",
+      repo: "https://github.com/tymonaghan/dev-portfolio",
+      site: "http://portfolio.tylermonaghan.dev/",
+      type: "Individual",
+      imageUrl: "/biopic-400w.jpg",
+      alt: "a headshot of a man smiling at the camera.",
+
+      description: "The portfolio site you're viewing right now.",
+      longDescription:
+        "I built this portfolio site as a quick and simple way to show off my software development portfolio to others, especially prospective employers. It is built using React and Tailwind CSS, which I used here for the first time.",
+      iconUrl: "/favicon.ico",
+      technologies: ["javascript", "react", "tailwind"],
+    },
   ],
 };
 
