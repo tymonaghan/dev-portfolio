@@ -13,6 +13,7 @@ import {
   ProjectList,
   Layout,
   ProjectDetailCard,
+  Videos,
 } from "./components";
 
 render(
@@ -23,6 +24,7 @@ render(
         <Route path="projects" element={<ProjectList />}>
           <Route path=":projectName" element={<ProjectDetailCard />} />
         </Route>
+        <Route path="videos" element={<Videos />} />
       </Route>
     </Routes>
   </BrowserRouter>,

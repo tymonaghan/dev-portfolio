@@ -7,6 +7,7 @@ import ProjectDetailCard from "./ProjectDetailCard";
 import ProjectListCard from "./ProjectListCard";
 import TechIcons from "./TechIcons";
 import ButtonGroup from "./ButtonGroup";
+import Videos from "./Videos";
 
 export {
   NavBar,
@@ -18,4 +19,5 @@ export {
   ProjectListCard,
   TechIcons,
   ButtonGroup,
+  Videos,
 };
