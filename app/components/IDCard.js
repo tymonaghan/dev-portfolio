@@ -5,7 +5,7 @@ const IDCard = (props) => {
   const { title, url } = props;
   return (
     <a target="_blank" href={`https://www.${url}`}>
-      <div className="flex max-w-lg  max-h-20 m-4 py-2 mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md space-x-4 ">
+      <div className="flex max-w-lg  max-h-22 m-4 py-2 mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md space-x-4 ">
         <div className="w-1/6 pl-2 my-auto">
           <img className="aspect-square max-h-12" src={`/${title}.png`} />
         </div>
