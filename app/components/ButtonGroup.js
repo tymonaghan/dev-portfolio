@@ -23,7 +23,7 @@ const ButtonGroup = (props) => {
       <a href={site} target="_blank">
         <button
           type="button"
-          className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded shadow-xl p-1 px-2 mx-3 my-1 "
+          className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded-sm shadow-xl p-1 px-2 mx-3 my-1 "
         >
           <div className="flex">
             <img

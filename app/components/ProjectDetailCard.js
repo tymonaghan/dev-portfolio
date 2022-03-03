@@ -25,19 +25,16 @@ const ProjectDetailCard = () => {
       onClick={clickHandler}
     >
       <div className="z-20 mx-auto my-4 w-5/6 sm:w-3/4 h-3/4 text-center overflow-auto bg-card-background p-0 border-4 border-border-dark shadow rounded">
+        <div className="w-1/12 fixed right-10 sm:right-24 md:right-32 lg:right-40">
+          <Link to="/projects">
+            <button type="button" className="py-1 px-2 text-xl">
+              X
+            </button>
+          </Link>
+        </div>
         <div className="flex ">
           <div className="w-11/12 my-auto text-xl lg:text-2xl font-bold text-center">
-            {project.name} - Project Detail View
-          </div>
-          <div className="w-1/12">
-            <Link to="/projects">
-              <button
-                type="button"
-                className="rounded shadow py-1 px-2 text-xl"
-              >
-                X
-              </button>
-            </Link>
+            {project.name} - Details
           </div>
         </div>
         <div className="lg:columns-2 p-2 sm:p-4 md:p-8 lg:p-10">
