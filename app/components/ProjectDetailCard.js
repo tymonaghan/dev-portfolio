@@ -1,7 +1,7 @@
 import React from "react";
 import projectData from "../projectData";
 import { useParams, Link } from "react-router-dom";
-import { TechIcons } from ".";
+import { TechIcons, ButtonGroup } from ".";
 
 const ProjectDetailCard = () => {
   // grab the current project based on URL param
@@ -16,9 +16,9 @@ const ProjectDetailCard = () => {
       id="modal"
       className=" fixed left-0 top-0 h-screen w-screen z-10 bg-gutter-light dark:bg-background-dark bg-opacity-70 dark:bg-opacity-70"
     >
-      <div className="z-20 mx-auto my-10 w-3/4 h-3/4 text-center overflow-auto bg-card-background p-0 border-4 border-border-dark shadow rounded">
-        <div className="flex bg-accent">
-          <div className="w-11/12 my-auto text-xl font-bold text-center">
+      <div className="z-20 mx-auto my-4 w-3/4 h-3/4 text-center overflow-auto bg-card-background p-0 border-4 border-border-dark shadow rounded">
+        <div className="flex ">
+          <div className="w-11/12 my-auto text-xl lg:text-2xl font-bold text-center">
             {project.name} - Project Detail View
           </div>
           <div className="w-1/12">
@@ -34,37 +34,12 @@ const ProjectDetailCard = () => {
         </div>
         <div className="lg:columns-2 p-2 sm:p-4 md:p-8 lg:p-10">
           <div className=" flex-col text-center">
-            <div className="mb-6">
-              <a href={project.repo} target="_blank">
-                <button
-                  type="button"
-                  className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded-sm shadow-xl p-1 px-2 mx-3 my-1 "
-                >
-                  <div className="flex">
-                    <img
-                      src="/GitHub.png"
-                      alt=""
-                      className="w-4 h-4 aspect-square my-auto  mr-1 "
-                    />
-                    Project Repo
-                  </div>
-                </button>
-              </a>
-              <a href={project.site} target="_blank">
-                <button
-                  type="button"
-                  className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded shadow-xl p-1 px-2 mx-3 my-1 "
-                >
-                  <div className="flex">
-                    <img
-                      src={project.iconUrl}
-                      alt=""
-                      className="w-4 h-4 aspect-square my-auto  mr-1 "
-                    />
-                    Deployed App
-                  </div>
-                </button>
-              </a>
+            <div className="my-4">
+              <ButtonGroup
+                site={project.site}
+                repo={project.repo}
+                iconUrl={project.iconUrl}
+              />
             </div>
             <div className="">
               <img

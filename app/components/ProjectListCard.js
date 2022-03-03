@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ButtonGroup } from ".";
 
 const ProjectListCard = (props) => {
   const { project } = props;
@@ -21,37 +22,11 @@ const ProjectListCard = (props) => {
           {project.description} {project.type} project.
         </div>
         <div className="sm:my-6 flex-row text-center">
-          <a href={project.repo} target="_blank">
-            <button
-              type="button"
-              className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded-sm shadow-xl p-1 px-2 mx-3 my-1 "
-            >
-              <div className="flex">
-                <img
-                  src="/GitHub.png"
-                  alt=""
-                  className="w-4 h-4 aspect-square my-auto  mr-1 "
-                />
-                Project Repo
-              </div>
-            </button>
-          </a>
-
-          <a href={project.site} target="_blank">
-            <button
-              type="button"
-              className="bg-card-button text-text-primary-dark text-sm sm:text-base font-medium rounded shadow-xl p-1 px-2 mx-3 my-1 "
-            >
-              <div className="flex">
-                <img
-                  src={project.iconUrl}
-                  alt=""
-                  className="w-4 h-4 aspect-square my-auto  mr-1 "
-                />
-                Deployed App
-              </div>
-            </button>
-          </a>
+          <ButtonGroup
+            site={project.site}
+            repo={project.repo}
+            iconUrl={project.iconUrl}
+          />
         </div>
       </div>
     </div>
