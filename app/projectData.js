@@ -13,7 +13,7 @@ const projectData = {
       longDescription:
         "POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. In this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.5 weeks.",
       iconUrl: "/posele-icon.png",
-      technologies: ["react", "firebase", "tensorflow"],
+      technologies: ["react", "expo", "firebase", "tensorflow", "netlify"],
     },
     {
       name: "House of Plants",
@@ -28,7 +28,7 @@ const projectData = {
       longDescription:
         "House of Plants is an e-commerce website design. This was a group project that I completed with my peers at Fullstack Academy: Ryan Slattery, Alston White, and Elstan Lewis. Highlights of this project include the interactive product cart (that persists for logged-in users), product filters, and the ability to log in as admin to edit inventory items and quantities.",
       iconUrl: "/hop-icon.png",
-      technologies: ["react", "firebase", "bootstrap", "postgres"],
+      technologies: ["react", "firebase", "bootstrap", "postgres", "heroku"],
     },
     {
       name: "Ice Resurfacer",
@@ -44,7 +44,7 @@ const projectData = {
       longDescription:
         "Ice Resurfacer is a game that I developed using the Phaser 3 JS game framework. This was a solo project and my goal was to do something lighthearted and different. I love hockey and watching the ice resurfacer at work is always mesmerizing, so this seemed like a great way to try something new. Phaser really made it easy to build this game and I hope to add more to it in the future!",
       iconUrl: "/ice-icon.png",
-      technologies: ["javascript", "html5"],
+      technologies: ["javascript", "html5", "heroku"],
     },
     {
       name: "StudyBuddy",
@@ -60,7 +60,7 @@ const projectData = {
       longDescription:
         "StudyBuddy is an app to help students organize their sources and notes when conducting research. I developed this app individually and it's one of the first apps I developed independently (no templates or walkthroughs used) in JavaScript. The idea for this app came from my experience as an educator, where I saw a disconnect between students' everyday use of technology and their ability to use that technology in academic settings.",
       iconUrl: "/studybuddy-icon.png",
-      technologies: ["react", "express", "bootstrap", "postgres"],
+      technologies: ["react", "express", "bootstrap", "postgres", "heroku"],
     },
     {
       name: "SOTU-db",
@@ -76,7 +76,7 @@ const projectData = {
       longDescription:
         "SOTU-db (State of the Union Database) is a web-based tool to search and conduct sentiment analysis computations on the texts of US Presidents' annual State of the Union addresses. I built this project from scratch on a Linux system running an Apache server, using PHP to connect to the R server that conducts the textual computations on the backend. I had no formal training in any of these technologies at the time, and it shows! I would love to re-build this project again on a modern JS-based stack! ",
       iconUrl: "/sotu-db-icon.png",
-      technologies: ["apache", "php", "r"],
+      technologies: ["apache", "php", "r", "html5"],
     },
     {
       name: "Development Portfolio",
@@ -91,7 +91,7 @@ const projectData = {
       longDescription:
         "I built this portfolio site as a quick and simple way to show off my software development portfolio to others, especially prospective employers. It is built using React and Tailwind CSS, which I used here for the first time.",
       iconUrl: "/favicon.ico",
-      technologies: ["javascript", "react", "tailwind"],
+      technologies: ["javascript", "react", "tailwind", "netlify"],
     },
   ],
 };
