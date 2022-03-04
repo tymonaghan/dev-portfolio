@@ -9,11 +9,11 @@ const NavBar = () => {
     color: "accent",
   };
   return (
-    <div>
+    <div className="">
       <div className="bg-background-dark text-base font-semibold text-center shadow text-text-primary-dark">
         Tyler Monaghan's Dev Portfolio
       </div>
-      <div className="bg-accent text-sm text-center">Under Construction</div>
+      {/* <div className="bg-accent text-sm text-center">Under Construction</div> */}
       <div className="flex h-14 bg-background-dark dark:bg-gutter-dark  text-text-secondary-dark dark:text-text-primary-light font-bold justify-center">
         <div className="my-auto  w-2/6 text-center">
           <NavLink
