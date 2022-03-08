@@ -42,7 +42,7 @@ const projectData = {
       description:
         "A top-down action driving game set in the high-stakes world of ice resurfacing.",
       longDescription:
-        "Ice Resurfacer is a game that I developed using the Phaser 3 JS game framework. This was a solo project and my goal was to do something lighthearted and different. I love hockey and watching the ice resurfacer at work is always mesmerizing, so this seemed like a great way to try something new. Phaser really made it easy to build this game and I hope to add more to it in the future!",
+        "Ice Resurfacer is a game that I developed using the Phaser 3 JS game framework. This was a solo project and my goal was to do something lighthearted and different. I love hockey and watching the ice resurfacer at work is always mesmerizing, so this seemed like a great way to try something new. Phaser really made it easy to build this game and I hope to add more to it in the future! PLEASE NOTE a keyboard is required to play this game.",
       iconUrl: "/ice-icon.png",
       technologies: ["javascript", "html5", "heroku"],
     },
