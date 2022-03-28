@@ -113,10 +113,12 @@ const TechIcons = (props) => {
       {technologies.map((tech, key) => {
         // console.log(tech);
         return (
-          <div className="flex-col align-middle justify-center text-center">
+          <div
+            className="flex-col align-middle justify-center text-center"
+            key={key}
+          >
             <a href={iconKey[tech].url} target="_blank">
               <svg
-                key={key}
                 role="img"
                 viewBox="-2 -2 28 28"
                 className="mx-auto w-10 sm:w-14 lg:w-20 aspect-square rounded-full bg-background-light ring-2 ring-background-light"

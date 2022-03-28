@@ -6,7 +6,7 @@ const ProjectListCard = (props) => {
   const { project } = props;
 
   return (
-    <div className="flex max-w-xl my-2 sm:my-6 p-4 mx-auto bg-card-background hover:bg-card-highlight border-border-dark border-2  shadow rounded-md  text-text-primary-dark">
+    <div className="flex max-w-xl my-2 sm:my-6 p-4 mx-auto bg-card-background dark:bg-card-background-dark hover:bg-card-highlight border-border dark:border-border-dark border-2  shadow rounded-md  text-text-secondary-light dark:text-text-primary-dark">
       <div className="w-1/4 mr-5 my-auto">
         <Link to={`./${project.slug}`}>
           <div className="font-bold text-center text-sm sm:text-base">

@@ -11,7 +11,7 @@ const projectData = {
       description:
         "Mobile game where users attempt to match a random daily pose.",
       longDescription:
-        "POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. In this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.5 weeks.",
+        "A video demo is available on the project repo README! POSEle is a mobile game developed in React Native. This was a group project that I completed with my peers at Fullstack Academy: Smit Patel, Yehoon (Luke) Joo, and John Arroyo. In this project, we emphasized building a complete, usable product without errors or crashes. We conducted beta testing and released a progressive web app version of the game all within about 2.5 weeks.",
       iconUrl: "/posele-icon.png",
       technologies: ["react", "expo", "firebase", "tensorflow", "netlify"],
     },
