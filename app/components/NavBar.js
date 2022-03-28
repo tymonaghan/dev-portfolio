@@ -1,24 +1,25 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const NavBar = () => {
-  let activeStyle = {
-    // this style applies to the currently selected NavLink item
-    textDecoration: "underline",
-    textShadow: "1px 1px 3px #fbbe2499",
-    color: "accent",
-  };
+  const activeStyle =
+    "text-accent bg-card-highlight dark:bg-card-highlight-dark rounded p-2";
+  const inactiveStyle = "underline text-link-dark dark:text-link-light";
+
   return (
-    <div className="">
-      <div className="bg-background-dark text-base font-semibold text-center shadow text-text-primary-dark">
-        Tyler Monaghan's Dev Portfolio
-      </div>
-      {/* <div className="bg-accent text-sm text-center">Under Construction</div> */}
-      <div className="flex h-14 bg-background-dark dark:bg-gutter-dark  text-text-secondary-dark dark:text-text-primary-light font-bold justify-center">
+    <div className="text-text-primary-dark">
+      <Link to="/">
+        <div className="bg-background-dark text-lg font-bold text-center ">
+          Tyler Monaghan's Dev Portfolio
+        </div>
+      </Link>
+      <div className="flex h-14 bg-background-dark dark:bg-gutter-dark font-bold justify-center">
         <div className="my-auto  w-2/6 text-center">
           <NavLink
             to="/"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle
+            }
           >
             Portfolio Home
           </NavLink>
@@ -26,7 +27,9 @@ const NavBar = () => {
         <div className="my-auto  w-2/6 text-center">
           <NavLink
             to="/projects"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            className={({ isActive }) =>
+              isActive ? activeStyle : inactiveStyle
+            }
           >
             Projects
           </NavLink>

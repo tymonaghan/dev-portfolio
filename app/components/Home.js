@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="flex-col h-full lg:columns-2 w-full px-4 sm:px-8 py-2 sm:py-4 text-center text-text-primary-light dark:text-text-primary-dark">
+    <div className="flex-col h-full lg:columns-2 w-full px-4 sm:px-8 py-2 sm:py-4 text-center text-text-primary-light dark:text-text-primary-dark text:xs sm:text-sm">
       <div className="flex-col lg:px-6 ">
-        <p className="text-sm sm:text-base text-left">
+        <p className="text-left">
           Hi, I'm Tyler, a software developer and digital humanitarian. Welcome
           to my digital development portfolio!{" "}
         </p>
-        <p className="text-sm sm:text-base text-left font-bold my-3">
+        <p className="text-left font-bold my-3">
           Please check out my{" "}
           <Link
             to="/projects"
@@ -20,7 +20,7 @@ const Home = () => {
           </Link>{" "}
           page for descriptions and links of my software!
         </p>
-        <p className="text-sm sm:text-base text-left  my-3">
+        <p className="text-left my-3">
           You can also view a{" "}
           <a
             href="https://youtube.com/playlist?list=PLNfOYoJq-Yg6JX4UZsJK9LDvFaHztS59G"
@@ -38,7 +38,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="text-sm sm:text-base text-left lg:text-center my-3 flex-col align-middle justify-center h-96 ">
+      <div className="text-left lg:text-center my-3 flex-col align-middle justify-center h-96 ">
         <p className="lg:max-h-5">
           Also check out my GitHub and LinkedIn profiles!
         </p>

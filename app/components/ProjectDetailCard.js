@@ -24,7 +24,7 @@ const ProjectDetailCard = () => {
       className=" fixed left-0 top-0 h-screen w-screen z-10 bg-gutter-light dark:bg-background-dark bg-opacity-70 dark:bg-opacity-70"
       onClick={clickHandler}
     >
-      <div className="z-20 mx-auto my-4 w-5/6 sm:w-3/4 h-3/4 text-center overflow-auto text-text-primary-dark bg-card-background p-0 border-4 border-border-dark shadow rounded">
+      <div className="z-20 mx-auto my-4 w-5/6 sm:w-3/4 h-3/4 text-center overflow-auto text-text-secondary-light dark:text-text-primary-dark bg-card-background dark:bg-card-background-dark p-0 border-4 border-border dark:border-border-dark shadow rounded">
         <div className="w-1/12 fixed right-10 sm:right-24 md:right-32 lg:right-40">
           <Link to="/projects">
             <button type="button" className="py-1 px-2 text-xl">
@@ -54,7 +54,7 @@ const ProjectDetailCard = () => {
             </div>
           </div>
           {/* COLUMN BREAK */}
-          <div className="text-sm sm:text-base text-left text-text-primary-dark my-2 break-before-column">
+          <div className="text-xs sm:text-sm text-left  my-2 break-before-column">
             <p>{project.longDescription}</p>
           </div>
           <div className="w-full bg-gutter-dark p-2 text-center font-semibold rounded my-2">
